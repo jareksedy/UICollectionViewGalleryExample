@@ -8,10 +8,12 @@
 import UIKit
 
 extension UIColor {
-    var random: UIColor {
-        return UIColor(red: CGFloat.random(in: 0...1/255),
-                       green: CGFloat.random(in: 0...1/255),
-                       blue: CGFloat.random(in: 0...1/255),
-                       alpha: 1)
+    static var random: UIColor {
+        return UIColor(
+            red: .random(in: 0...1),
+            green: .random(in: 0...1),
+            blue: .random(in: 0...1),
+            alpha: 1.0
+        )
     }
 }

@@ -15,6 +15,7 @@
 		CA7B33222A550AF20050D33D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B33212A550AF20050D33D /* DetailsViewController.swift */; };
 		CA7B33252A550B1C0050D33D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA7B33242A550B1C0050D33D /* SnapKit */; };
 		CA7B332A2A550E800050D33D /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B33292A550E800050D33D /* UIColor+Random.swift */; };
+		CA7B332D2A550F7A0050D33D /* GalleryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B332C2A550F7A0050D33D /* GalleryItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CA7B331F2A550AD00050D33D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CA7B33212A550AF20050D33D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		CA7B33292A550E800050D33D /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		CA7B332C2A550F7A0050D33D /* GalleryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +92,8 @@
 		CA7B33282A550BFD0050D33D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				CA7B331F2A550AD00050D33D /* MainViewController.swift */,
-				CA7B33212A550AF20050D33D /* DetailsViewController.swift */,
+				CA7B332E2A550F840050D33D /* Main */,
+				CA7B332F2A550F8C0050D33D /* Details */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -102,6 +104,23 @@
 				CA7B33292A550E800050D33D /* UIColor+Random.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CA7B332E2A550F840050D33D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B331F2A550AD00050D33D /* MainViewController.swift */,
+				CA7B332C2A550F7A0050D33D /* GalleryItemCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CA7B332F2A550F8C0050D33D /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B33212A550AF20050D33D /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +202,7 @@
 				CA7B332A2A550E800050D33D /* UIColor+Random.swift in Sources */,
 				CA7B330C2A5509F30050D33D /* AppDelegate.swift in Sources */,
 				CA7B330E2A5509F30050D33D /* SceneDelegate.swift in Sources */,
+				CA7B332D2A550F7A0050D33D /* GalleryItemCell.swift in Sources */,
 				CA7B33202A550AD00050D33D /* MainViewController.swift in Sources */,
 				CA7B33222A550AF20050D33D /* DetailsViewController.swift in Sources */,
 			);
