@@ -14,6 +14,7 @@
 		CA7B33202A550AD00050D33D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B331F2A550AD00050D33D /* MainViewController.swift */; };
 		CA7B33222A550AF20050D33D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B33212A550AF20050D33D /* DetailsViewController.swift */; };
 		CA7B33252A550B1C0050D33D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA7B33242A550B1C0050D33D /* SnapKit */; };
+		CA7B332A2A550E800050D33D /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B33292A550E800050D33D /* UIColor+Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CA7B33192A5509F40050D33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA7B331F2A550AD00050D33D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CA7B33212A550AF20050D33D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CA7B33292A550E800050D33D /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CA7B33282A550BFD0050D33D /* Scenes */,
 				CA7B330B2A5509F30050D33D /* AppDelegate.swift */,
 				CA7B330D2A5509F30050D33D /* SceneDelegate.swift */,
+				CA7B332B2A550E840050D33D /* Helpers */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -91,6 +94,14 @@
 				CA7B33212A550AF20050D33D /* DetailsViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CA7B332B2A550E840050D33D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CA7B33292A550E800050D33D /* UIColor+Random.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7B332A2A550E800050D33D /* UIColor+Random.swift in Sources */,
 				CA7B330C2A5509F30050D33D /* AppDelegate.swift in Sources */,
 				CA7B330E2A5509F30050D33D /* SceneDelegate.swift in Sources */,
 				CA7B33202A550AD00050D33D /* MainViewController.swift in Sources */,
