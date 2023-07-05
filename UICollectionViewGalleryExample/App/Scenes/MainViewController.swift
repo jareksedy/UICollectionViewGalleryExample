@@ -1,19 +1,15 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  UICollectionViewGalleryExample
 //
 //  Created by Ярослав on 05.07.2023.
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
-
+class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
